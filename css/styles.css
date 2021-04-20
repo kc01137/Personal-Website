@@ -1,0 +1,140 @@
+
+body{
+  color: #40514E;
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;}
+
+h1{
+  color: #f8ede3;
+  font-size: 5.62rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+line-height: 2;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+color: #11999E
+font-family: 'Montserrat', sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6
+}
+
+.top-container {
+  background-color: #bdd2b6;
+  postion: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #white;
+margin: 100px 0;
+}
+
+.bottom-container  {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.intro{
+  width: 30%;
+}
+
+.contact-me{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.profile{
+  width: 50%;
+  margin: auto;
+}
+
+.bottom-container{
+  color: #EAF6F6
+}
+
+.top-cloud{
+position: absolute;
+right: 350px;
+top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 350px;
+  bottom: 400px;
+}
+
+.profile-img{
+  width: 25%;
+}
+
+.camping-tent{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bonfire{
+width: 30%;
+float: right;
+margin-left: 30px;
+}
+
+.btn {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:8px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
